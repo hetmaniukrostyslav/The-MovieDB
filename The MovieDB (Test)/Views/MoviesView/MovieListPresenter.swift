@@ -39,7 +39,11 @@ class MovieListPresenter {
     }
     
     func getMovies(type: MoviesType){
-    
+        self.movieService.getMovies(type: type, onSuccess: { result in
+        
+        }) { error in
+            
+        }
     }
 }
 

@@ -20,8 +20,9 @@ class MovieListViewController: UIViewController, UITabBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         tabBarView.delegate = self
+        
     }
-
+    
     func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         switch item.tag {
         case 1:

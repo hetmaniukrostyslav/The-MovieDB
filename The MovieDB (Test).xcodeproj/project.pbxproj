@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7A4A12A5204C9AE500B147A7 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A12A4204C9AE500B147A7 /* MovieListViewController.swift */; };
 		7A4A12A9204C9CA400B147A7 /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A12A8204C9CA400B147A7 /* MovieListPresenter.swift */; };
+		7A781D1E205C9B2E00FB49C4 /* MovieRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A781D1D205C9B2E00FB49C4 /* MovieRepository.swift */; };
 		7AA33115204F3CC200ACB69E /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA33114204F3CC200ACB69E /* MovieTableViewCell.swift */; };
 		7AA795D4204F4B5000F219B4 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA795D3204F4B5000F219B4 /* MovieService.swift */; };
 		7AA795D7204F4C7A00F219B4 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA795D6204F4C7A00F219B4 /* ApiManager.swift */; };
@@ -24,6 +25,7 @@
 		2AFF00745F582421E825FE43 /* Pods_The_MovieDB__Test_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_MovieDB__Test_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4A12A4204C9AE500B147A7 /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		7A4A12A8204C9CA400B147A7 /* MovieListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
+		7A781D1D205C9B2E00FB49C4 /* MovieRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepository.swift; sourceTree = "<group>"; };
 		7AA33114204F3CC200ACB69E /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		7AA795D3204F4B5000F219B4 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		7AA795D6204F4C7A00F219B4 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				7AA795D3204F4B5000F219B4 /* MovieService.swift */,
+				7A781D1D205C9B2E00FB49C4 /* MovieRepository.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -255,10 +258,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-The MovieDB (Test)/Pods-The MovieDB (Test)-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A781D1E205C9B2E00FB49C4 /* MovieRepository.swift in Sources */,
 				7AA795D4204F4B5000F219B4 /* MovieService.swift in Sources */,
 				7AA33115204F3CC200ACB69E /* MovieTableViewCell.swift in Sources */,
 				7A4A12A5204C9AE500B147A7 /* MovieListViewController.swift in Sources */,

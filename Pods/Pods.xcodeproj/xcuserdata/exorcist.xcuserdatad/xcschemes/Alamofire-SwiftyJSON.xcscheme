@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B40D05D323FC84D78A153E4D6426307E"
-               BuildableName = "Pods_The_MovieDB__Test_.framework"
-               BlueprintName = "Pods-The MovieDB (Test)"
+               BlueprintIdentifier = "0DB194629F1368FB26338A13747F37BF"
+               BuildableName = "Alamofire_SwiftyJSON.framework"
+               BlueprintName = "Alamofire-SwiftyJSON"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B40D05D323FC84D78A153E4D6426307E"
-            BuildableName = "Pods_The_MovieDB__Test_.framework"
-            BlueprintName = "Pods-The MovieDB (Test)"
+            BlueprintIdentifier = "0DB194629F1368FB26338A13747F37BF"
+            BuildableName = "Alamofire_SwiftyJSON.framework"
+            BlueprintName = "Alamofire-SwiftyJSON"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

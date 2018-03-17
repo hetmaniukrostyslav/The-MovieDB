@@ -5,4 +5,6 @@ target 'The MovieDB (Test)' do
   	use_frameworks!
   	# Pods for The MovieDB (Test)
     	pod 'Alamofire'
+        pod 'SwiftyJSON', '~> 4.0'
+        pod 'Alamofire-SwiftyJSON'
 end
